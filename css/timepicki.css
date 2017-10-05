@@ -1,0 +1,184 @@
+.ti_tx, .mi_tx, .mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+.time, .mins, .meridian {
+	width: 60px;
+	float: left;
+	margin:0;
+	font-size:14px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+.prev, .next {
+	cursor: pointer;
+	padding: 18px;
+	width: 28%;
+	border: 1px solid #ccc;
+	margin: auto;
+	background: url(../img/arrow.png) no-repeat;
+	border-radius: 5px;
+}
+.prev:hover, .next:hover {
+	background-color: #ccc;
+}
+.next {
+	background-position: 50% 150%;
+}
+.prev {
+	background-position: 50% -50%;
+}
+.time_pick {
+	position: relative;
+}
+.timepicker_wrap {
+	padding:10px 0px;
+	border-radius: 5px;
+	z-index: 998;
+	display: none;
+	box-shadow: 2px 2px 5px 0 rgba(50, 50, 50, 0.35);
+	background: #f6f6f6;
+	float: left;
+	position: absolute;
+	top: 27px;
+	left: 0;
+}
+.arrow_top {
+	position: absolute;
+	top: -10px;
+	left: 20px;
+	background: url(../images/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	float: none;
+	margin: 0;
+	text-align: center;
+	width: 70%;
+    color:#333;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}
+/* Padding for spacing */
+.inner {
+	padding: 30px;
+}
+/*
+ * Header
+ */
+.masthead-brand {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.masthead-nav > li {
+	display: inline-block;
+}
+.masthead-nav > li + li {
+	margin-left: 20px;
+}
+.masthead-nav > li > a {
+	padding-right: 0;
+	padding-left: 0;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff; /* IE8 proofing */
+	color: rgba(255, 255, 255, .75);
+	border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
+	background-color: transparent;
+	border-bottom-color: #a9a9a9;
+	border-bottom-color: rgba(255, 255, 255, .25);
+}
+.masthead-nav > .active > a, .masthead-nav > .active > a:hover, .masthead-nav > .active > a:focus {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+ @media (min-width: 768px) {
+ .masthead-brand {
+ float: left;
+}
+ .masthead-nav {
+ float: right;
+}
+}
+/*
+ * Cover
+ */
+
+.cover {
+	padding: 0 0 0 0 ;
+}
+.cover .btn-lg {
+	padding: 10px 20px;
+	font-weight: bold;
+}
+/*
+ * Footer
+ */
+
+.mastfoot {
+	color: #999; /* IE8 proofing */
+	color: rgba(255, 255, 255, .5);
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+ position: fixed;
+ top: 0;
+}
+ .mastfoot {
+ position: fixed;
+ bottom: 0;
+}
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+ vertical-align: middle;
+}
+  /* Handle the widths */
+  .masthead,  .mastfoot,  .cover-container {
+ width: 100%; /* Must be percentage or pixels for horizontal alignment */
+}
+}
+ @media (min-width: 992px) {
+ .masthead,  .mastfoot,  .cover-container {
+ width: 700px;
+}
+}
+/* addtional css */
+.dl-horizontal {
+	text-align:left;
+}
+.height500 {
+	height: 500px;
+	margin: 85px 0;
+	overflow: auto;
+}
+.myclass input[type='text'] {
+	color:#5CB85C
+}
+.indexpicker .time_pick {
+	width:100%;
+	display:inline-block;
+}
+.indexpicker .time_pick > input {
+	width:100%;
+	margin-bottom:20px;
+	color:#fff;
+}

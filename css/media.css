@@ -1,0 +1,55 @@
+﻿@media only screen and (max-width: 1280px)
+{
+.main_wrp_body{width:90%;}
+#header .navbar-header a{padding-right: 0;width: auto;padding-left:0;}
+.nav_up_text{float:left;}
+.latest_news_wrp{margin-right:5%;}
+
+@media only screen and (max-width: 1200px) {}
+@media only screen and (max-width: 1024px) {
+#header .topnavbar{height:180px;}
+#header .navbar-nav a, #header .navbar-nav .active a{font-size: 13px; padding: 5px 10px;}
+.nav_up_left{width:70%;}
+.nav_up_right{width:auto;}
+#header .navbar-toggle, #header .nav{width:75%;}
+.latest_news_wrp{width:90%;}
+.marq_a{width:68%;}
+.footer_left{font-size:12px;}
+}
+@media only screen and (max-width: 959px) {}
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+#header .navbar-toggle{width: auto;float:right !important;background:none;position:absolute;right:0;    top: 40px;}
+.rgstr_nw_wrp{top: 180px;}
+.rgstr_nw_wrp1{top: 180px;}
+.footer_left{width:100%;text-align:center;}
+.desgn_foot{width:100%;text-align:center;}
+.footer_a{line-height: 35px;}
+.main_wrp_body{width:100%;}
+#header .navbar-header a{border-image:none;}
+.navbar-header{float:left;}
+#header .nav{background: #D8B78E;right: 29px;position: absolute; top: 80px; width: 200px;z-index: 99;}
+#header .topnavbar{height:auto;}
+.we_care_ab{width:100%;}
+.you_tub_wrp{width:100%;margin-top:10px;}
+}
+@media only screen and (max-width: 753px) {}
+@media only screen and (max-width: 736px) {}
+@media only screen and (max-width: 711px) {
+.nav_up_text{width:70%;}
+.nav_up_left {width: 60%;}
+}
+@media only screen and (max-width: 640px) {}
+@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 569px) {}
+@media only screen and (max-width: 568px) {}
+@media only screen and (max-width: 533px) {}
+@media only screen and (max-width: 480px) {} 
+@media only screen and (max-width: 424px) {}
+@media only screen and (max-width: 414px) {}
+@media only screen and (max-width: 400px) {}
+@media only screen and (max-width: 384px) {}
+@media only screen and (max-width: 375px) {}
+@media only screen and (max-width: 360px) {}
+@media only screen and (max-width: 320px) {}
