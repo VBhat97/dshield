@@ -29,3 +29,30 @@
     color: #a62500;
     font-size: 16px;
 }
+
+.helpbutton
+{
+    background-color: #950006;
+    color: white;
+    font-family: play;
+    font-size: 14px;
+    width: 136.141px;
+    height: 30px;
+    margin: 10px;
+}
+
+.helpbutton-active
+{
+    background-color: #be9052;
+    color: white;
+    font-family: play;
+    font-size: 14px;
+    width: 136.141px;
+    height: 30px;
+    margin : 10px;
+}
+
+.thirdelement
+{
+    margin-left : 10px;
+}

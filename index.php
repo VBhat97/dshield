@@ -21,6 +21,16 @@
         <div class="secondelement">
             <p class="secondfirst"><strong class="insider">ACCOUNT ID </strong>: {{ }}</p>
     </div>
-    
+        <br>
+        <div class="thirdelement">
+            <a href="#"><button class="helpbutton-active">Blood Help</button></a>
+            <a href="#"><button class="helpbutton">Missing Help</button></a>
+            <a href="#"><button class="helpbutton">Travel Help</button></a>
+        </div>
+        <br><br><br>
+        <div class="firstelement">
+            <strong>BLOOD HELP</strong>
+        </div>
+    </div>    
     </body>
 </html>
