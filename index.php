@@ -71,9 +71,24 @@
         <div class="firstelement">
             <strong>ADD BLOOD HELP</strong>
         </div>
+        <br>
         <div class="fifthelement">
             <form action="index-script.php">
-                
+                <input type='text' placeholder="First Name *" class="inputelements" name="FirstName">
+                <input type='text' placeholder="Last Name *" class="inputelements" name="LastName">
+                <br><br>
+                <input type='number' placeholder="Age *" class="inputelements2" name="Age">
+                <input type='text' placeholder="Blood Group *" class="inputelements2" name="BGroup">
+                <input type='text' placeholder="Hospital Name *" class="inputelements" name="HName">
+                <br><br>
+                <input type='text' placeholder="State *" class="inputelements" name="State">
+                <input type='text' placeholder="City *" class="inputelements2" name="City">
+                <input type='text' placeholder="Area *" class="inputelements2" name="Area">
+                <br><br>
+                <input type='text' placeholder="Patient's Relative Full Name *" class="inputelements" name="PRelFname">
+                <input type='number' placeholder="Patient's Relative Mobile Number *" class="inputelements" name="PRelFnum">
+                <br><br><br>
+                <button class="submitbutton btn">Add Now</button>
             </form>
         </div>
     </div>

@@ -78,3 +78,63 @@ th
     font-family: Old Baskerville Face;
     font-weight: bold;
 }
+
+.inputelements
+{
+    width: 450px;
+    height: 40px;
+    background-image: url(../img/input_back.png);
+    background-color: #d8b78e;
+    border-width: 0px;
+    border: 0;
+    margin-left: 20px;
+    color: white;
+    font-family: Baskerville Old Face;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.inputelements2
+{
+    width: 214px;
+    height: 40px;
+    background-image: url(../img/input_back.png);
+    background-color: #d8b78e;
+    border-width: 0px;
+    border: 0;
+    margin-left: 20px;
+    color: white;
+    font-family: Baskerville Old Face;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+  color: #7a290c;
+  padding-left: 20px;
+  font-family: Baskerville Old Face;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #7a290c;
+  padding-left: 20px;
+  font-family: Baskerville Old Face;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #7a290c;
+  opacity: 1;
+    padding-left: 20px;
+  font-family: Baskerville Old Face;
+}
+:-moz-placeholder { /* Firefox 4 - 18 */
+  color: #7a290c;
+  opacity: 1;
+    padding-left: 20px;
+  font-family: Baskerville Old Face;
+}
+
+.submitbutton
+{
+    background-color: #612d0b;
+    color: #bf996b;
+    margin-left: 430px;
+}
