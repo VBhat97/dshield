@@ -3,7 +3,7 @@
     background-color: #d8b78e;
     margin-left: 180px;
     margin-right: 180px;
-    height: 500px;
+    height: 1000px;
 }
 
 .firstelement
@@ -55,4 +55,26 @@
 .thirdelement
 {
     margin-left : 10px;
+}
+
+.fourthelement
+{
+    margin-left: 20px;
+}
+
+th
+{
+    background-color: #be9052;
+    color: #9d1d15;
+    font-family: Old Baskerville Face;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.firstrow
+{
+    background-color: #FFF2D0;
+    color: #9d1d15;
+    font-family: Old Baskerville Face;
+    font-weight: bold;
 }

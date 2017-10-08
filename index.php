@@ -8,7 +8,7 @@
         <link href="css/timepicki.css" rel="stylesheet" />
         <link href="css/style.css" rel="stylesheet" />
     </head>
-    <body>
+    <body background = "img/back_all">
     <center>
         <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
     </center>
@@ -31,6 +31,51 @@
         <div class="firstelement">
             <strong>BLOOD HELP</strong>
         </div>
-    </div>    
+        <br>
+        <table class="table table-bordered" class="fourthelement" >
+        <tbody>
+            <tr>
+                <th colspan="7">Patient Details</th>
+        <th colspan="2">Patient Relative Details</th>
+            <th>Status</th>
+            <th>Share on Social Media</th>
+            </tr>
+            <tr class="firstrow">
+                <td>Full Name</td>
+                <td>Age</td>
+                <td>Blood Group</td>
+                <td>State</td>
+                <td>City</td>
+                <td>Area</td>
+                <td>Hospital</td>
+                <td>Full Name</td>
+                <td>Mobile Number</td>
+                <td></td>
+                <td></td>
+            </tr>
+             <tr>
+                <td>First Middle Last</td>
+                <td>30</td>
+                <td>B+</td>
+                <td>Maharashtra</td>
+                <td>Pune</td>
+                <td>411001</td>
+                <td>DMH Kothrud</td>
+                <td>First Middle Last</td>
+                <td>9000000000</td>
+                <td>Open</td>
+            </tr>
+        </tbody>
+    </table>
+        <br><br><br>
+        <div class="firstelement">
+            <strong>ADD BLOOD HELP</strong>
+        </div>
+        <div class="fifthelement">
+            <form action="index-script.php">
+                
+            </form>
+        </div>
+    </div>
     </body>
 </html>
