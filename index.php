@@ -12,6 +12,9 @@
         <link href="css/style.css" rel="stylesheet" />
     </head>
     <body background = "img/back_all">
+        <?php $con = mysqli_connect("localhost","root","","dshield") or die(mysqli_error($con));
+              session_start()        
+        ?>
     <center>
         <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
     </center>
@@ -56,6 +59,32 @@
                 <td></td>
                 <td></td>
             </tr>
+            <?php 
+             $query = "Select * from vtbl_bldhlp order by BldHlpID DESC";
+             $result = mysqli_query($con, $query)or die($mysqli_error($con));
+             while ($row = mysqli_fetch_array($result) ){
+            ?>
+            <tr>
+                <td><?php echo $row['PatName'] ?></td>
+                <td><?php echo $row['PatAge'] ?></td>
+                <td><?php echo $row['PatBldGrp'] ?></td>
+                <td><?php echo $row['PatState'] ?></td>
+                <td><?php echo $row['PatCity'] ?></td>
+                <td><?php echo $row['PatArea'] ?></td>
+                <td><?php echo $row['PatHospName'] ?></td>
+                <td><?php echo $row['PatRelName'] ?></td>
+                <td><?php echo $row['PatRelMobNum'] ?></td>
+                <td><?php if($row['ActiveStat'] == 0)
+                {
+                    echo "OPEN";
+                }
+                else
+                {
+                    echo CLOSE;
+                }
+?></td>
+            </tr>
+             <?php } ?>
         </tbody>
     </table>
         <br><br><br>
