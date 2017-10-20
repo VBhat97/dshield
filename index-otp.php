@@ -88,66 +88,6 @@
         </tbody>
     </table>
         <br><br><br>
-        <div class="firstelement">
-            <strong>ADD BLOOD HELP</strong>
-        </div>
-        <br>
-        <div class="fifthelement">
-            <form action="index-script.php" method="post">
-                <input type='text' placeholder="First Name *" class="inputelements" name="FirstName">
-                <input type='text' placeholder="Last Name *" class="inputelements" name="LastName">
-                <br><br>
-                <input type='number' placeholder="Age *" class="inputelements2" name="Age">
-                <input type='text' placeholder="Blood Group *" class="inputelements2" name="BGroup">
-                <input type='text' placeholder="Hospital Name *" class="inputelements" name="HName">
-                <br><br>
-                <select type='text' placeholder="State *" class="inputelements" name="State">
-<option value="">Select State</option>
-<option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
-<option value="Andhra Pradesh">Andhra Pradesh</option>
-<option value="Arunachal Pradesh">Arunachal Pradesh</option>
-<option value="Assam">Assam</option>
-<option value="Bihar">Bihar</option>
-<option value="Chandigarh">Chandigarh</option>
-<option value="Chhattisgarh">Chhattisgarh</option>
-<option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
-<option value="Daman and Diu">Daman and Diu</option>
-<option value="Delhi">Delhi</option>
-<option value="Goa">Goa</option>
-<option value="Gujarat">Gujarat</option>
-<option value="Haryana">Haryana</option>
-<option value="Himachal Pradesh">Himachal Pradesh</option>
-<option value="Jammu and Kashmir">Jammu and Kashmir</option>
-<option value="Jharkhand">Jharkhand</option>
-<option value="Karnataka">Karnataka</option>
-<option value="Kerala">Kerala</option>
-<option value="Lakshadweep">Lakshadweep</option>
-<option value="Madhya Pradesh">Madhya Pradesh</option>
-<option value="Maharashtra">Maharashtra</option>
-<option value="Manipur">Manipur</option>
-<option value="Meghalaya">Meghalaya</option>
-<option value="Mizoram">Mizoram</option>
-<option value="Nagaland">Nagaland</option>
-<option value="Orissa">Orissa</option>
-<option value="Pondicherry">Pondicherry</option>
-<option value="Punjab">Punjab</option>
-<option value="Rajasthan">Rajasthan</option>
-<option value="Sikkim">Sikkim</option>
-<option value="Tamil Nadu">Tamil Nadu</option>
-<option value="Tripura">Tripura</option>
-<option value="Uttaranchal">Uttaranchal</option>
-<option value="Uttar Pradesh">Uttar Pradesh</option>
-<option value="West Bengal">West Bengal</option>
-</select>
-                <input type='text' placeholder="City *" class="inputelements2" name="City">
-                <input type='text' placeholder="Area *" class="inputelements2" name="Area">
-                <br><br>
-                <input type='text' placeholder="Patient's Relative Full Name *" class="inputelements" name="PRelFname">
-                <input type='number' placeholder="Patient's Relative Mobile Number *" class="inputelements" name="PRelFnum">
-                <br><br><br>
-                <button class="submitbutton btn">Add Now</button>
-            </form>
-        </div>
     </div>
-    </body>
+</body>
 </html>
