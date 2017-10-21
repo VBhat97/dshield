@@ -76,7 +76,7 @@
                 <td><?php echo $row['PatRelMobNum'] ?></td>
                 <td><?php if($row['ActiveStat'] == 1)
                 {
-                    echo "OPEN";
+                    echo "<img src=img/button_open.png / >";
                 }
                 else
                 {

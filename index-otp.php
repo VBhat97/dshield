@@ -76,7 +76,7 @@
                 <td><?php echo $row['PatRelMobNum'] ?></td>
                 <td><?php if($row['ActiveStat'] == 1)
                 {
-                    echo "OPEN";
+                    echo "<img src=img/button_open.png / >";
                 }
                 else
                 {
@@ -92,6 +92,8 @@
             <input type='text' placeholder="Enter OTP" class="inputelements" name="OTP"> <br><br><br>
             <button class="submitbutton btn">Verify</button>
         </form>
+        <br><br><br>
+        <p style="margin-left: 420px;font-size: 20px;"><a href="index.php"><b>go back</b></a></p>
     </div>
 </body>
 </html>
