@@ -74,13 +74,13 @@
                 <td><?php echo $row['PatHospName'] ?></td>
                 <td><?php echo $row['PatRelName'] ?></td>
                 <td><?php echo $row['PatRelMobNum'] ?></td>
-                <td><?php if($row['ActiveStat'] == 0)
+                <td><?php if($row['ActiveStat'] == 1)
                 {
                     echo "OPEN";
                 }
                 else
                 {
-                    echo CLOSE;
+                    echo "CLOSE";
                 }
 ?></td>
             </tr>
@@ -88,6 +88,10 @@
         </tbody>
     </table>
         <br><br><br>
+        <form action="index-script-otp.php" method="post">
+            <input type='text' placeholder="Enter OTP" class="inputelements" name="OTP"> <br><br><br>
+            <button class="submitbutton btn">Verify</button>
+        </form>
     </div>
 </body>
 </html>

@@ -74,7 +74,7 @@
                 <td><?php echo $row['PatHospName'] ?></td>
                 <td><?php echo $row['PatRelName'] ?></td>
                 <td><?php echo $row['PatRelMobNum'] ?></td>
-                <td><?php if($row['ActiveStat'] == 0)
+                <td><?php if($row['ActiveStat'] == 1)
                 {
                     echo "OPEN";
                 }
