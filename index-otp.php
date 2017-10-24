@@ -212,6 +212,7 @@
                     echo "CLOSE";
                 }
 ?></td>
+                <td><button id="fbboss">facebook share</button></td>
             </tr>
              <?php } ?>
         </tbody>

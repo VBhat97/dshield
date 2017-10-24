@@ -213,6 +213,7 @@
                     echo CLOSE;
                 }
 ?></td>
+                <td><button id="fbboss">facebook share</button></td>
             </tr>
              <?php } ?>
         </tbody>
@@ -289,5 +290,6 @@
             </form>
         </div>
     </div>
+         <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
     </body>
 </html>
