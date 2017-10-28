@@ -219,29 +219,13 @@
                     </tbody>
     </table>
         <br><br><br>
-           <div class="firstelement">
-            <strong>ADD MISSING HELP</strong>
-        </div>
-        <br>
-        <div class="fifthelement">
-            <form action="index-script2.php" method="post">
-                <input type='text' placeholder="Category *" class="inputelements" name="Category">
-                <input type='text' placeholder="Missing Name/Details*" class="inputelements" name="NameDetails">
-                <br><br>
-                <input type='text' placeholder="Missing Date*" class="inputelements" name="Date" onfocus="(this.type='date')" onblur="(this.type='text')"/>
-                <input type='text' placeholder="Specifications/Description" class="inputelements" name="SpecDesc">
-                <br><br>
-                <input type='text' placeholder="State *" class="inputelements" name="State">
-                <input type='text' placeholder="City *" class="inputelements2" name="City">
-                <input type='text' placeholder="Area *" class="inputelements2" name="Area">
-                <br><br>
-                <input type='text' placeholder="Full Name" class="inputelements" name="FName">
-                <input type='number' placeholder="Contact Number*" class="inputelements" name="Contact">
-                <br><br>
-                <button class="submitbutton btn">Add Now</button>
-            </form>
-        </div>
+        <form action="index-script-otp2.php" method="post">
+            <input type='text' placeholder="Enter OTP" class="inputelements" name="OTP"> <br><br><br>
+            <button class="submitbutton btn">Verify</button>
+        </form>
+        <br><br><br>
+        <p style="margin-left: 420px;font-size: 20px;"><a href="index2.php"><b>go back</b></a></p>
     </div>
-         <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
-    </body>
+             <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
+</body>
 </html>
