@@ -159,9 +159,9 @@
     </div>
         <br>
         <div class="thirdelement">
-            <a href="#"><button class="helpbutton">Blood Help</button></a>
+            <a href="index.php"><button class="helpbutton">Blood Help</button></a>
             <a href="index2.php"><button class="helpbutton-active">Missing Help</button></a>
-            <a href="#"><button class="helpbutton">Travel Help</button></a>
+            <a href="index3.php"><button class="helpbutton">Travel Help</button></a>
         </div>
         <br><br><br>
         <div class="firstelement">
@@ -213,7 +213,7 @@
                     echo CLOSE;
                 }
 ?></td>
-                <td><button id="fbboss">facebook share</button></td>
+                <td><a href="http://www.facebook.com/sharer.php?u=https://d-shield.org/helpboard.php"><button id="fbboss">facebook share</button></td></a>
             </tr>
              <?php } ?>
                     </tbody>
