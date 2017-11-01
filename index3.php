@@ -189,6 +189,33 @@
                 <td></td>
                 <td></td>
             </tr>
+            <?php 
+             $query = "Select * from vtbl_trvlhlp where ActivStat = 1 order by id DESC";
+             $result = mysqli_query($con, $query)or die($mysqli_error($con));
+             while ($row = mysqli_fetch_array($result) ){
+            ?>
+            <tr>
+                <td><?php echo $row['FullName'] ?></td>
+                <td><?php echo $row['Age'] ?></td>
+                <td><?php echo $row['TDate'] ?></td>
+                <td><?php echo $row['FrAirport'] ?></td>
+                <td><?php echo $row['ToAirport'] ?></td>
+                <td><?php echo $row['Airline'] ?></td>
+                <td><?php echo $row['FlightNo'] ?></td>
+                <td><?php echo $row['RelFullName'] ?></td>
+                <td><?php echo $row['RelContact'] ?></td>
+                <td><?php if($row['ActivStat'] == 1)
+                {
+                    echo "<img src=img/button_open.png / >";
+                }
+                else
+                {
+                    echo CLOSE;
+                }
+?></td>
+                <td><a href="http://www.facebook.com/sharer.php?u=https://d-shield.org/helpboard.php"><button id="fbboss">facebook share</button></td></a>
+            </tr>
+             <?php } ?>
             </tbody>
         </table>
         <br><br><br>
