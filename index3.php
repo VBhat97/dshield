@@ -198,20 +198,23 @@
         <br>
         <div class="fifthelement">
             <form action="index-script3.php" method="post">
-                <input type='text' placeholder="Full Name" class="inputelements" name="Category">
-                <input type='text' placeholder="Missing Name/Details*" class="inputelements" name="NameDetails">
+                <input type='text' placeholder="Full Name*" class="inputelements" name="FullName">
+                <input type='text' placeholder="Age*" class="inputelements2" name="Age">
+                <input type='text' placeholder="Travel Date*" class="inputelements2" name="TravelDate" onfocus="(this.type='date')" onblur="(this.type='text')"/>
                 <br><br>
-                <input type='text' placeholder="Missing Date*" class="inputelements" name="Date" onfocus="(this.type='date')" onblur="(this.type='text')"/>
-                <input type='text' placeholder="Specifications/Description" class="inputelements" name="SpecDesc">
+                <input type='text' placeholder="Travelling From Airport Code*" class="inputelements" name="TravFrom">
+                <input type='text' placeholder="Travelling To Airport Code*" class="inputelements" name="TravTo">
                 <br><br>
-                <input type='text' placeholder="State *" class="inputelements" name="State">
-                <input type='text' placeholder="City *" class="inputelements2" name="City">
-                <input type='text' placeholder="Area *" class="inputelements2" name="Area">
+                <input type='text' placeholder="Airline *" class="inputelements" name="Airline">
+                <input type='text' placeholder="Flight Numbers *" class="inputelements" name="Flight">
                 <br><br>
-                <input type='text' placeholder="Full Name" class="inputelements" name="FName">
+                <input type='text' placeholder="Full Name" class="inputelements" name="RFullName">
                 <input type='number' placeholder="Contact Number*" class="inputelements" name="Contact">
                 <br><br>
                 <button class="submitbutton btn">Add Now</button>
             </form>
         </div>
     </div>
+             <img src="img/up_header.png" class="img_dw_a_up img_dw_a">
+    </body>
+</html>
